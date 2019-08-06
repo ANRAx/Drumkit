@@ -8,7 +8,7 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
             break;
         
             case "a": 
-                var audio = new Audio('kick-bass.mp3');
+                var audio = new Audio('sounds/kick-bass.mp3');
                 audio.play();
             break;
 
@@ -32,7 +32,7 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
                 audio.play();
             break;
 
-            case "a": 
+            case "l": 
                 var audio = new Audio('sounds/tom-4.mp3');
                 audio.play();
             break;
